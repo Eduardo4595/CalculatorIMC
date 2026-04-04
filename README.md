@@ -12,3 +12,8 @@ A Java-based school project that calculates BMI (Body Mass Index), implemented a
 - Java 17 (or specify your version)
 - Object-Oriented Programming
 - Console Input/Output
+
+## Collaboration 🤝
+- [@rhee-c31](https://github.com/rhee-c31)
+- [@Eduardo4595](https://github.com/Eduardo4595)
+- [@GalSal0967](https://github.com/GalSal0967)
