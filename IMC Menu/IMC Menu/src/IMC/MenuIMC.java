@@ -2,6 +2,9 @@ package IMC;
 
 import javax.swing.*;
 import java.text.DecimalFormat;
+import java.nio.file.*;
+import java.io.IOException;
+import java.nio.file.StandardOpenOption;
 
 public class MenuIMC {
     private IMC imc;
@@ -9,6 +12,7 @@ public class MenuIMC {
     private ConversorNumeros conversor;
     private EntradaSaidaDados io;
     private Situacao situacao;
+    String Situacao;
     DecimalFormat df = new DecimalFormat("0.##");
 
     public MenuIMC() {
@@ -89,11 +93,47 @@ public class MenuIMC {
 
             case 4:
                 saida = situacao.verificarSituacao(imc);
+                Situacao = saida;
                 io.saidaDados(saida);
                 break;
 
             case 0:
-                System.exit(0);
+                if (imc.getimc() != 0 && imc.getpeso() != 0 && imc.getaltura() != 0) {
+                    String mensagemEntrada = "Você deseja salvar as suas informações? \n" +
+                            "Digite: \n" +
+                            "1 - Sim \n" +
+                            "2 - Não \n" ;
+                    Double resposta = conversor.stringToDouble(io.entradaDados(mensagemEntrada));
+
+                    if (resposta == 1) {
+                        mensagemEntrada = "Digite o seu nome:";
+                        String nome = io.entradaDadosString(mensagemEntrada);
+                        String registro = "Nome: " + nome + "\n" +
+                                "Peso: " +  imc.getpeso() + "kg\n" +
+                                "Altura: " +  imc.getaltura() + "m\n" +
+                                "IMC: " +  df.format(imc.getimc()) + "kg/m²\n" +
+                                "Situação: " + Situacao + "\n" +
+                                "--------------------------------------- \n\n";
+
+                        try {
+                            Files.writeString(
+                                    Path.of("E:\\IMC Menu\\IMC Menu\\Registros\\imc.txt"),
+                                    registro,
+                                    StandardOpenOption.CREATE,
+                                    StandardOpenOption.APPEND
+                            );
+                            io.saidaDados("Dados salvos com sucesso!\nAcesse o arquivo .txt chamdo \"imc\" no caminho \"E:\\IMC Menu\\IMC Menu\\Registros\\imc.txt\" para ter acesso aos seus dados. ");
+                        } catch (IOException e) {
+                            io.saidaDados("Erro ao salvar arquivo, Tente novamente.");
+                            e.printStackTrace();
+                        }
+                    } else {
+                        System.exit(0);
+                    }
+
+                } else {
+                    System.exit(0);
+                }
                 break;
         }
     }

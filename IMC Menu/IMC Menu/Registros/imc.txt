@@ -1,0 +1,7 @@
+Nome: Edu
+Peso: 92.0kg
+Altura: 1.85m
+IMC: 26,88kg/m²
+Situação: Sobrepeso.
+--------------------------------------- 
+
