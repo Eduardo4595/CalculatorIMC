@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="IMC.TelaIMC">
+  <grid id="27dc6" binding="PainelPrincipal" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="70" vgap="30">
+    <margin top="50" left="85" bottom="50" right="85"/>
+    <constraints>
+      <xy x="20" y="20" width="1018" height="602"/>
+    </constraints>
+    <properties>
+      <background color="-16382453"/>
+      <focusable value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="85d7c" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="30" vgap="15">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16382453"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="23ea7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="40"/>
+              <foreground color="-1"/>
+              <text value="CALCULADORA DE IMC"/>
+            </properties>
+          </component>
+          <component id="1c6e1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI Symbol" size="14"/>
+              <foreground color="-1"/>
+              <text value="1. Cadastrar Peso e Altura"/>
+            </properties>
+          </component>
+          <component id="688c2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI Symbol" size="14"/>
+              <foreground color="-1"/>
+              <text value="2. Consultar dados cadastrados"/>
+            </properties>
+          </component>
+          <component id="6e657" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI Symbol" size="14"/>
+              <foreground color="-1"/>
+              <text value="3. Calcular IMC"/>
+            </properties>
+          </component>
+          <component id="8291f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI Symbol" size="14"/>
+              <foreground color="-1"/>
+              <text value="4. Verificar situação"/>
+            </properties>
+          </component>
+          <component id="eb61d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI Symbol" size="14"/>
+              <foreground color="-1"/>
+              <text value="0. Sair"/>
+            </properties>
+          </component>
+          <component id="6d238" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.5"/>
+              <enabled value="true"/>
+              <font name="Segoe UI Symbol" size="18"/>
+              <foreground color="-1"/>
+              <text value="Selecione uma das seguintes opções:"/>
+            </properties>
+          </component>
+          <component id="8d9c4" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <disabledTextColor color="-16382453"/>
+              <font name="Segoe UI Symbol"/>
+              <foreground color="-16777216"/>
+              <margin top="2" left="9" bottom="2" right="6"/>
+            </properties>
+          </component>
+          <component id="de7da" class="javax.swing.JButton" binding="CANCELARButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16382453"/>
+              <borderPainted value="true"/>
+              <font name="Arial Black" size="14"/>
+              <foreground color="-3025959"/>
+              <icon value="Imagens/cancelar.png"/>
+              <text value="CANCELAR"/>
+            </properties>
+          </component>
+          <component id="62620" class="javax.swing.JButton" binding="ENVIARButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16382453"/>
+              <borderPainted value="true"/>
+              <contentAreaFilled value="true"/>
+              <font name="Arial Black" size="14"/>
+              <foreground color="-3025959"/>
+              <icon value="Imagens/enviar.png"/>
+              <text value="ENVIAR"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
