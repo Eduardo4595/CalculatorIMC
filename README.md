@@ -1,14 +1,17 @@
-# Java BMI Calculator
+# 🧮 Java BMI Calculator
 
 ## Description
 
-A Java-based school project that calculates BMI (Body Mass Index), implemented according to the class diagram provided by the instructor. This project demonstrates object-oriented programming concepts and practical application of Java for real-world calculations.
+A Java-based school project that calculates BMI (Body Mass Index), implemented according to the class diagram provided by the instructor. This project demonstrates object-oriented programming concepts and the practical application of Java for real-world calculations.
+
+In its updated version, the application now features a custom-built graphical user interface developed with Swing, replacing the previous use of JOptionPane. This enhancement provides a more organized, user-friendly, and visually consistent experience for both data input and output.
 
 ## Features
 
 * Calculate BMI using user input (weight and height)
 * Categorize BMI (Underweight, Normal, Overweight, Obesity)
-* Interactive menu using GUI (JOptionPane)
+* Custom graphical user interface (Swing) for data input and result display
+* Improved user experience compared to JOptionPane dialogs
 * Data persistence: save user information (name, weight, height, BMI, and status) into a `.txt` file
 
 ## Technologies
@@ -16,7 +19,22 @@ A Java-based school project that calculates BMI (Body Mass Index), implemented a
 * Java 17 (or specify your version)
 * Object-Oriented Programming
 * File handling with `java.nio.file` (Files, Path)
-* GUI interaction with `JOptionPane`
+* Custom GUI built with Swing
+
+## How to Run
+
+* Clone the repository
+* Open the project in your IDE (IntelliJ, Eclipse, etc.)
+* Make sure your environment is properly configured to support graphical interfaces
+
+**Important:**
+To run the custom GUI correctly, some IDEs may require additional plugins or configurations:
+
+* **IntelliJ IDEA**: Enable GUI Designer plugin (if applicable)
+* **Eclipse**: Install WindowBuilder plugin
+* Ensure that Java (JDK 17 or higher) is properly configured
+
+Without these configurations, the graphical interface may not display correctly.
 
 ## Collaboration 🤝
 
