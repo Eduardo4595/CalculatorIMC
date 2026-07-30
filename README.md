@@ -39,5 +39,5 @@ Without these configurations, the graphical interface may not display correctly.
 ## Collaboration 🤝
 
 * [@rhee-c31](https://github.com/rhee-c31)
-* [@Eduardo4595](https://github.com/Eduardo4595)
+* [@Eduardo4595](https://github.com/Edukaxs)
 * [@GalSal0967](https://github.com/GalSal0967)
