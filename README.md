@@ -21,6 +21,11 @@ In its updated version, the application now features a custom-built graphical us
 * File handling with `java.nio.file` (Files, Path)
 * Custom GUI built with Swing
 
+<a href="https://www.java.com/pt-BR/">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" alt="Java" />
+</a>
+&nbsp;&nbsp;
+
 ## How to Run
 
 * Clone the repository
