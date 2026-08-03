@@ -2,55 +2,72 @@
 
 ## Description
 
-A Java-based school project that calculates BMI (Body Mass Index), implemented according to the class diagram provided by the instructor. This project demonstrates object-oriented programming concepts and the practical application of Java for real-world calculations.
+A Java-based **school project** that calculates BMI (Body Mass Index), developed according to a class diagram provided by the instructor. The project was created to demonstrate object-oriented programming concepts while applying Java to a practical real-world scenario.
 
-In its updated version, the application now features a custom-built graphical user interface developed with Swing, replacing the previous use of JOptionPane. This enhancement provides a more organized, user-friendly, and visually consistent experience for both data input and output.
+In its updated version, the application features a custom graphical user interface built with **Java Swing**, replacing the previous implementation that relied on `JOptionPane`. This improvement provides a cleaner, more organized, and user-friendly experience for data input and result visualization.
+
+---
 
 ## Features
 
-* Calculate BMI using user input (weight and height)
-* Categorize BMI (Underweight, Normal, Overweight, Obesity)
-* Custom graphical user interface (Swing) for data input and result display
-* Improved user experience compared to JOptionPane dialogs
-* Data persistence: save user information (name, weight, height, BMI, and status) into a `.txt` file
+* Calculate BMI using user-provided weight and height
+* Classify BMI into standard categories:
+
+  * Underweight
+  * Normal weight
+  * Overweight
+  * Obesity
+* Custom graphical interface built with Java Swing
+* Save user information (name, weight, height, BMI, and classification) to a `.txt` file
+* Organized object-oriented project structure based on a class diagram
+
+---
 
 ## Technologies
 
-* Java 17 (or specify your version)
-* Object-Oriented Programming
-* File handling with `java.nio.file` (Files, Path)
-* Custom GUI built with Swing
-
+* Java 17
+* Java Swing (GUI)
+* Object-Oriented Programming (OOP)
+* Java NIO (`Files` and `Path`) for file handling
 
 <div align="center">
-<a href="https://www.java.com/pt-BR/">
+<a href="https://www.java.com/">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" alt="Java" />
 </a>
 &nbsp;&nbsp;
 </div>
 
+---
+
 ## How to Run
 
-* Clone the repository
-* Open the project in your IDE (IntelliJ, Eclipse, etc.)
-* Make sure your environment is properly configured to support graphical interfaces
+1. Clone this repository.
+2. Open the project in your preferred IDE.
+3. Configure **JDK 17** (or a newer version).
+4. If you are using **IntelliJ IDEA**, make sure the **Swing UI Designer** plugin is enabled.
+5. Run the `Main` class.
 
-**Important:**
-To run the custom GUI correctly, some IDEs may require additional plugins or configurations:
+### IDE Requirements
 
-* **IntelliJ IDEA**: Enable GUI Designer plugin (if applicable)
-* **Eclipse**: Install WindowBuilder plugin
-* Ensure that Java (JDK 17 or higher) is properly configured
+#### IntelliJ IDEA
 
-Without these configurations, the graphical interface may not display correctly.
+* JDK 17 or newer
+* **Swing UI Designer** plugin enabled (enabled by default in most installations)
+
+#### Eclipse
+
+* JDK 17 or newer
+* WindowBuilder plugin (recommended for editing Swing forms)
+
+Without the required GUI support, the graphical interface may not display or compile correctly.
 
 <div align="center">
-<a href="https://www.jetbrains.com/pt-br/idea/">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="45" alt="IntelliJ" />
+<a href="https://www.jetbrains.com/idea/">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="45" alt="IntelliJ IDEA" />
 </a>
 &nbsp;&nbsp;
 
-<a href="https://www.java.com/en/download/manual.jsp">
+<a href="https://www.java.com/en/download/">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" alt="Java" />
 </a>
 &nbsp;&nbsp;
@@ -58,10 +75,11 @@ Without these configurations, the graphical interface may not display correctly.
 <a href="https://eclipseide.org/">
   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons%2FEclipse-Dark.svg" height="45" alt="Eclipse" />
 </a>
-&nbsp;&nbsp;
 </div>
 
-## Collaboration 🤝
+---
+
+## Contributors 🤝
 
 * [@rhee-c31](https://github.com/rhee-c31)
 * [@Edukaxs](https://github.com/Edukaxs)
