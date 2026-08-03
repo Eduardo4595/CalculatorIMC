@@ -73,7 +73,7 @@ Without the required GUI support, the graphical interface may not display or com
 &nbsp;&nbsp;
 
 <a href="https://eclipseide.org/">
-  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons%2FEclipse-Dark.svg" height="45" alt="Eclipse" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original.svg" height="45" alt="Eclipse" />
 </a>
 </div>
 
