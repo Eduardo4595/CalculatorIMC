@@ -27,7 +27,7 @@ In its updated version, the application now features a custom-built graphical us
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" alt="Java" />
 </a>
 &nbsp;&nbsp;
-<div>
+</div>
 
 ## How to Run
 
@@ -49,7 +49,7 @@ Without these configurations, the graphical interface may not display correctly.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="45" alt="IntelliJ" />
 </a>
 &nbsp;&nbsp;
-<div>
+</div>
 
 ## Collaboration 🤝
 
