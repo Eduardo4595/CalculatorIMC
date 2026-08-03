@@ -54,6 +54,11 @@ Without these configurations, the graphical interface may not display correctly.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" alt="Java" />
 </a>
 &nbsp;&nbsp;
+
+<a href="https://www.java.com/en/download/manual.jsp">
+  <img src="https://github.com/tandpfun/skill-icons/blob/main/icons%2FEclipse-Dark.svg" height="45" alt="Eclipse" />
+</a>
+&nbsp;&nbsp;
 </div>
 
 ## Collaboration 🤝
