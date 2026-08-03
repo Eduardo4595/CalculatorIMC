@@ -21,10 +21,13 @@ In its updated version, the application now features a custom-built graphical us
 * File handling with `java.nio.file` (Files, Path)
 * Custom GUI built with Swing
 
+
+<div align="center">
 <a href="https://www.java.com/pt-BR/">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" alt="Java" />
 </a>
 &nbsp;&nbsp;
+<div>
 
 ## How to Run
 
@@ -40,6 +43,13 @@ To run the custom GUI correctly, some IDEs may require additional plugins or con
 * Ensure that Java (JDK 17 or higher) is properly configured
 
 Without these configurations, the graphical interface may not display correctly.
+
+<div align="center">
+<a href="https://www.jetbrains.com/pt-br/idea/">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="45" alt="IntelliJ" />
+</a>
+&nbsp;&nbsp;
+<div>
 
 ## Collaboration 🤝
 
