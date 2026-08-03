@@ -63,7 +63,7 @@ Without the required GUI support, the graphical interface may not display or com
 
 <div align="center">
 <a href="https://www.jetbrains.com/idea/">
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/7f7e691e71aec64e8354bf697835e009d1ad80f8/icons/Idea-Dark.svg" height="45" alt="IntelliJ IDEA" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="45" alt="IntelliJ IDEA" />
 </a>
 &nbsp;&nbsp;
 
