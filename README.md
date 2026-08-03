@@ -49,6 +49,11 @@ Without these configurations, the graphical interface may not display correctly.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="45" alt="IntelliJ" />
 </a>
 &nbsp;&nbsp;
+
+<a href="https://www.java.com/en/download/manual.jsp">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" alt="Java" />
+</a>
+&nbsp;&nbsp;
 </div>
 
 ## Collaboration 🤝
